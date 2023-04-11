@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas Neue:400');
 
-header {
+header, footer {
     text-align: center;
     font-family: bebas neue;
     background-color: rgb(2, 2, 50);
