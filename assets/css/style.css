@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas Neue:400');
+
+header {
+    text-align: center;
+    font-family: bebas neue;
+    background-color: rgb(2, 2, 50);
+    color: darkgrey;
+    border: solid;
+    border-radius: 15px;
+}
+
+.navigation {
+    letter-spacing: 2px;
+    list-style-type: none;
+    padding-left: 690px;
+}
+
+.navigation li {
+    display: inline-block;
+    font-family: bebas neue;
+}
+
+#main-image {
+    height: 400px;
+    width: 100%;
+    background: url(../Milestone-Project-1/assets/images/ZEUS\ 2.0.jpg) no-repeat center center;
+    opacity: 0.7;
+}
+
+#image-behind {
+    position: relative;
+}
+
+#cover-quote {
+    position: absolute;
+    bottom: 30px;
+    right: 650px;
+}
+
+#cover-quote h2 {
+    font-family: bebas neue;
+}
