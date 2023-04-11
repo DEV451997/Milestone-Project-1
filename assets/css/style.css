@@ -15,7 +15,7 @@ header, footer {
 header h1 {
     font-size: 200%;
     color: darkgrey;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 /***********navigation and socials styling**************/
@@ -31,7 +31,13 @@ header h1 {
 }
 
 #socials {
-    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#socials li {
+    display: inline;
 }
 
 /*********************main image and main quote styling*******/
@@ -41,7 +47,8 @@ header h1 {
     width: 100%;
     background: url(/assets/images/ZEUS\ 4.0.jpg) no-repeat center center;
     opacity: 0.7;
-    
+    border-radius: 15px;
+    border: solid;
 }
 
 #image-behind {
@@ -56,6 +63,7 @@ header h1 {
 
 #cover-quote h2 {
     font-family: bebas neue;
-    text-align: center;
-    color: rgb(3, 3, 61);;
+    color: rgb(3, 3, 61);
+    margin-bottom: 100px;
+    opacity: 0.7;
 }
