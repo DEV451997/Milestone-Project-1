@@ -8,7 +8,6 @@ header, footer {
     background-color: rgb(3, 3, 61);
     color: darkgrey;
     border: solid;
-    border-radius: 15px;
     font-size: 150%;
 }
 
@@ -27,7 +26,7 @@ header h1 {
 }
 
 #navigation li {
-   display: inline;
+    display: inline;
 }
 
 #socials {
@@ -43,12 +42,12 @@ header h1 {
 /*********************main image and main quote styling*******/
 
 #main-image {
-    height: 600px;
+    height: 557px;
     width: 100%;
     background: url(/assets/images/ZEUS\ 4.0.jpg) no-repeat center center;
     opacity: 0.7;
-    border-radius: 15px;
     border: solid;
+    border-color: darkgrey;
 }
 
 #image-behind {
