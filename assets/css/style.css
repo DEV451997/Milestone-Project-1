@@ -1,30 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas Neue:400');
 
+/************************ header and footer styling*********/
+
 header, footer {
     text-align: center;
     font-family: bebas neue;
-    background-color: rgb(2, 2, 50);
+    background-color: rgb(3, 3, 61);
     color: darkgrey;
     border: solid;
     border-radius: 15px;
+    font-size: 150%;
 }
 
-.navigation {
-    letter-spacing: 2px;
+header h1 {
+    font-size: 200%;
+    color: darkgrey;
+    padding-top: 10px;
+}
+
+/***********navigation and socials styling**************/
+
+#navigation  {
     list-style-type: none;
-    padding-left: 690px;
+    margin: 0;
+    padding: 0;
 }
 
-.navigation li {
-    display: inline-block;
-    font-family: bebas neue;
+#navigation li {
+   display: inline;
 }
+
+#socials {
+    
+}
+
+/*********************main image and main quote styling*******/
 
 #main-image {
-    height: 400px;
+    height: 600px;
     width: 100%;
-    background: url(../Milestone-Project-1/assets/images/ZEUS\ 2.0.jpg) no-repeat center center;
+    background: url(/assets/images/ZEUS\ 4.0.jpg) no-repeat center center;
     opacity: 0.7;
+    
 }
 
 #image-behind {
@@ -39,4 +56,6 @@ header, footer {
 
 #cover-quote h2 {
     font-family: bebas neue;
+    text-align: center;
+    color: rgb(3, 3, 61);;
 }
