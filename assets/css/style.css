@@ -79,8 +79,11 @@ header h1 {
 #cover-quote h2 {
     font-family: bebas neue;
     color: rgb(3, 3, 61);
-    margin-bottom: 100px;
     opacity: 0.7;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+
     animation-name: image-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -104,4 +107,15 @@ header h1 {
     position: absolute;
     bottom: 20px;
     left: 100px;
+}
+
+/*****************sign up form styling********/
+
+.form {
+    position: absolute;
+    bottom: 225px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    padding: 0;
 }
