@@ -117,12 +117,16 @@ header h1:hover {
     left: 100px;
     width: 25%;
     font-family: bebas neue;
-    color: rgb(3, 3, 61);
+    color: darkgrey;
+    text-align: center;
+    font-size: 120%;
 }
 
 .gym {
-    background-color: darkgrey;
-    opacity: 0.7;
+    background-image: url(../images/GYM.jpg);
+    background-repeat: no-repeat; 
+    background-size: 450px 175px;
+    border-radius: 15px;
 }
 
 #strength {
@@ -131,12 +135,18 @@ header h1:hover {
     right: 100px;
     width: 25%;
     font-family: bebas neue;
-    color: rgb(3, 3, 61);
+    color: darkgrey;
+    text-align: center;
+    font-size: 120%;
 }
 
 .strength {
     background-color: darkgrey;
     opacity: 0.7;
+    background-image: url(../images/S&C\ ROOM.jpg);
+    background-repeat: no-repeat; 
+    background-size: 450px 200px;
+    border-radius: 15px;
 }
 
 #recovery {
@@ -145,12 +155,18 @@ header h1:hover {
     left: 100px;
     width: 25%;
     font-family: bebas neue;
-    color: rgb(3, 3, 61);
+    color: darkgrey;
+    text-align: center;
+    font-size: 120%;
 }
 
 .recovery {
     background-color: darkgrey;
     opacity: 0.7;
+    background-image: url(../images/RECOVERY\ ROOM\ IMAGE.jpg);
+    background-repeat: no-repeat; 
+    background-size: 450px 250px;
+    border-radius: 15px;
 }
 
 /*****************sign up form styling********/
