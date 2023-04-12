@@ -18,6 +18,10 @@ header h1 {
     margin: 0;
 }
 
+header h1:hover {
+    color: crimson;
+}
+
 /***********navigation and socials styling**************/
 
 #navigation  {
@@ -46,6 +50,14 @@ header h1 {
 
 #socials li {
     display: inline;
+}
+
+#socials i {
+    color: darkgrey;
+}
+
+#socials i:hover {
+    color: crimson;
 }
 
 /*********************main image and main quote styling*******/
