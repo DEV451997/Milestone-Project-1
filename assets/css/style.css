@@ -113,20 +113,44 @@ header h1:hover {
 
 #gym {
     position: absolute;
-    bottom: 450px;
+    bottom: 300px;
     left: 100px;
+    width: 25%;
+    font-family: bebas neue;
+    color: rgb(3, 3, 61);
+}
+
+.gym {
+    background-color: darkgrey;
+    opacity: 0.7;
 }
 
 #strength {
     position: absolute;
     bottom: 225px;
     right: 100px;
+    width: 25%;
+    font-family: bebas neue;
+    color: rgb(3, 3, 61);
+}
+
+.strength {
+    background-color: darkgrey;
+    opacity: 0.7;
 }
 
 #recovery {
     position: absolute;
     bottom: 20px;
     left: 100px;
+    width: 25%;
+    font-family: bebas neue;
+    color: rgb(3, 3, 61);
+}
+
+.recovery {
+    background-color: darkgrey;
+    opacity: 0.7;
 }
 
 /*****************sign up form styling********/
