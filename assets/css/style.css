@@ -133,9 +133,51 @@ header h1:hover {
 
 .form {
     position: absolute;
-    bottom: 225px;
+    bottom: 80px;
     text-align: center;
     margin: 0;
-    width: 100%;
-    padding: 0;
+    width: 25%;
+    padding: 5px;
+    background-color: darkgrey;
+    left: 37%;
+    border-style: solid;
+    border-color:  rgb(3, 3, 61);
+    border-radius: 15px;
+}
+
+.label {
+    font-family: bebas neue;
+    color:  rgb(3, 3, 61);
+    font-size: 120%;
+    letter-spacing: 0.5px;
+}
+
+#age {
+    font-family: bebas neue;
+    color:  rgb(3, 3, 61);
+}
+
+#submit {
+    font-family: bebas neue;
+    color: rgb(3, 3, 61);
+    font-size: 120%;
+    margin-top: 10px;
+}
+
+#submit:hover {
+    background-color: crimson;
+}
+
+form input {
+    width: 50%;
+    opacity: 0.9;
+    border-color: rgb(3, 3, 61);
+    font-family: bebas neue;
+}
+
+form p {
+    font-family: bebas neue;
+    color: rgb(3, 3, 61);
+    letter-spacing: 0.5px;
+    padding-top: 5px;
 }
