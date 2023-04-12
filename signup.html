@@ -5,16 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mt. Olympus</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>Mt.Olympus</header>
-    <nav>
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="facilities.html">FACILITIES</a></li>
-            <li><a href="signup.html">SIGN UP</a></li>
+    <header>
+        <a href="index.html">
+            <h1>Mt. Olympus3</h1>
+        </a>
+        <nav>
+            <ul id="navigation">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="facilities.html">FACILITIES</a>
+                </li>
+                <li>
+                    <a href="signup.html">SIGN UP</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="image-behind">
+        <div id="main-image"></div>
+        <div class="form">
+            <form>
+                <label for="fname">First Name</label>
+                <br>
+                <input type="text" id="fname" name="first name">
+                <br>
+                <label for="lname">Last Name</label>
+                <br>
+                <input type="text" id="lname" name="last name">
+                <br>
+                <label for="email">Email Address</label>
+                <br>
+                <input type="email" id="email" name="email address">
+                <br>
+                <label for="age">Age</label>
+                <br>
+                <select id="age" name="age">
+                    <option value="18-25">18-25</option>
+                    <option value="26-50">26-50</option>
+                    <option value="51-75">51-75</option>
+                    <option value="76+">76+</option>
+                </select>
+                <br>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+     </section> 
+    
+ 
+<footer>
+    <div class="quote">
+        <strong>
+            The resistance that you fight in the gym and the resistance that you fight in life can only build a strong character.
+        </strong>
+    </div>
+        <ul id="socials">
+            <li>
+                <a href="https://www.facebook.com" target="_blank">
+                    <i class="fab fa-facebook"> </i>
+            </li>
+            <li>
+                <a href="https://www.twitter.com" target="_blank">
+                    <i class="fab fa-twitter-square"> </i>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" target="_blank">
+                    <i class="fab fa-instagram"> </i>
+            </li>
         </ul>
-    </nav>
+ </footer>
+
 </body>
 </html>
