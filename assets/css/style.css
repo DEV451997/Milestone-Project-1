@@ -111,62 +111,15 @@ header h1:hover {
 
 /**************facilities page main content styling*************/
 
-#gym {
+.bg-light {
     position: absolute;
-    bottom: 300px;
-    left: 100px;
-    width: 25%;
-    font-family: bebas neue;
-    color: darkgrey;
+    bottom: 200px;
+    width: 100%;
+    height: 51%;
     text-align: center;
-    font-size: 120%;
-}
-
-.gym {
-    background-image: url(../images/GYM.jpg);
-    background-repeat: no-repeat; 
-    background-size: 450px 175px;
-    border-radius: 15px;
-}
-
-#strength {
-    position: absolute;
-    bottom: 225px;
-    right: 100px;
-    width: 25%;
+    font-size: 90%;
     font-family: bebas neue;
-    color: darkgrey;
-    text-align: center;
-    font-size: 120%;
-}
-
-.strength {
-    background-color: darkgrey;
-    opacity: 0.7;
-    background-image: url(../images/S&C\ ROOM.jpg);
-    background-repeat: no-repeat; 
-    background-size: 450px 200px;
-    border-radius: 15px;
-}
-
-#recovery {
-    position: absolute;
-    bottom: 20px;
-    left: 100px;
-    width: 25%;
-    font-family: bebas neue;
-    color: darkgrey;
-    text-align: center;
-    font-size: 120%;
-}
-
-.recovery {
-    background-color: darkgrey;
-    opacity: 0.7;
-    background-image: url(../images/RECOVERY\ ROOM\ IMAGE.jpg);
-    background-repeat: no-repeat; 
-    background-size: 450px 250px;
-    border-radius: 15px;
+    letter-spacing: 0.2px;
 }
 
 /*****************sign up form styling********/
