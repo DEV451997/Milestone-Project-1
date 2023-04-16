@@ -114,6 +114,7 @@ header h1:hover {
 .card {
     position: absolute;
     margin: 0;
+    padding: 0;
     bottom: 100px;
     border-style: solid;
     border-color: rgb(3, 3, 61);
@@ -202,4 +203,12 @@ form p {
     color: rgb(3, 3, 61);
     letter-spacing: 0.5px;
     padding-top: 5px;
+}
+
+/*****************repsonsive design**********/
+
+@media screen and (max-width: 1200px){
+    .card {
+        
+    }
 }
