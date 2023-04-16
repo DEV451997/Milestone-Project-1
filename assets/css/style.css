@@ -69,6 +69,7 @@ header h1:hover {
     opacity: 0.7;
     border: solid;
     border-color: darkgrey;
+
     animation-name: image-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -99,7 +100,7 @@ header h1:hover {
 #cover-quote h2 {
     font-family: bebas neue;
     color: rgb(3, 3, 61);
-    opacity: 0.7;
+    opacity: 0.8;
     margin: 0;
     width: 100%;
     padding: 0;
@@ -123,6 +124,8 @@ header h1:hover {
 
 .card-image-top {
     max-width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .card-body {
@@ -132,6 +135,7 @@ header h1:hover {
     letter-spacing: 0.5px;
     font-size: 105%;
     background-color: darkgrey;
+    padding: 10;
 }
 
 .card-body h3:hover{
