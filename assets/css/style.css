@@ -121,6 +121,10 @@ header h1:hover {
     color: crimson;
 }
 
+#facilities {
+    background: url(/assets/images/facilities\ page.jpg) no-repeat center center;
+}
+
 /*****************sign up form styling********/
 
 
