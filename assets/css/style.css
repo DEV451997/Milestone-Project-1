@@ -60,7 +60,7 @@ header h1:hover {
     color: crimson;
 }
 
-/*********************main image and main quote styling*******/
+/*********************main image*******/
 
 #main-image {
     height: 600px;
@@ -91,32 +91,11 @@ header h1:hover {
     }
 }
 
-#cover-quote {
-    position: absolute;
-    bottom: 30px;
-    right: 650px;
-}
-
-#cover-quote h2 {
-    font-family: bebas neue;
-    color: rgb(3, 3, 61);
-    opacity: 0.8;
-    margin: 0;
-    width: 100%;
-    padding: 0;
-
-    animation-name: image-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
 /**************facilities page main content styling*************/
 
 .card {
-    position: absolute;
     margin: 0;
     padding: 0;
-    bottom: 100px;
     border-style: solid;
     border-color: rgb(3, 3, 61);
     border-radius: 1px;
@@ -140,20 +119,6 @@ header h1:hover {
 
 .card-body h3:hover{
     color: crimson;
-}
-
-.recovery {
-    left: 1000px;
-    top: 75px;
-}
-
-.sc {
-    left: 500px;
-    top: 75px;
-}
-
-.gym{
-    top: 75px;
 }
 
 /*****************sign up form styling********/
