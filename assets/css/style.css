@@ -65,7 +65,7 @@ header h1:hover {
 #main-image {
     height: 600px;
     width: 100%;
-    background: url(/assets/images/ZEUS\ 4.0.jpg) no-repeat center center;
+    background: url(/assets/images/ZEUS\ 5.0.jpg) no-repeat center center;
     opacity: 0.7;
     border: solid;
     border-color: darkgrey;
@@ -123,57 +123,7 @@ header h1:hover {
 
 /*****************sign up form styling********/
 
-.form {
-    position: absolute;
-    bottom: 80px;
-    text-align: center;
-    margin: 0;
-    width: 25%;
-    padding: 5px;
-    background-color: darkgrey;
-    left: 37%;
-    border-style: solid;
-    border-color:  rgb(3, 3, 61);
-    border-radius: 15px;
-}
 
-.label {
-    font-family: bebas neue;
-    color:  rgb(3, 3, 61);
-    font-size: 120%;
-    letter-spacing: 0.5px;
-}
 
-#age {
-    font-family: bebas neue;
-    color:  rgb(3, 3, 61);
-    width: 15%;
-}
 
-#submit {
-    font-family: bebas neue;
-    color: rgb(3, 3, 61);
-    font-size: 120%;
-    margin-top: 10px;
-}
-
-#submit:hover {
-    background-color: crimson;
-}
-
-form input {
-    width: 60%;
-    opacity: 0.9;
-    border-color: rgb(3, 3, 61);
-    font-family: bebas neue;
-}
-
-form p {
-    font-family: bebas neue;
-    color: rgb(3, 3, 61);
-    letter-spacing: 0.5px;
-    padding-top: 10px;
-}
-
-/*****************repsonsive design**********/
 
