@@ -105,6 +105,7 @@ header h1:hover {
     max-width: 100%;
     padding: 0;
     margin: 0;
+    max-height: 100%;
 }
 
 .card-body {
@@ -123,6 +124,11 @@ header h1:hover {
 
 #facilities {
     background: url(/assets/images/facilities\ page.jpg) no-repeat center center;
+    text-align: center;
+}
+
+#rec, #gym, #sc {
+    display: inline-block;
 }
 
 /*****************sign up form styling********/
