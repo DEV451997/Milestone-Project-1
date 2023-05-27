@@ -18,10 +18,6 @@ header h1 {
     margin: 0;
 }
 
-header h1:hover {
-    color: crimson;
-}
-
 /***********navigation and socials styling**************/
 
 #navigation  {
@@ -147,10 +143,6 @@ header h1:hover {
     padding: 10;
 }
 
-.card-body h3:hover{
-    color: crimson;
-}
-
 #facilities {
     background: url(/assets/images/facilities\ page\ 3.0.jpg) no-repeat center center;
     text-align: center;
@@ -180,7 +172,6 @@ form {
     background-color: grey;
     opacity: 0.5;
     text-align: center;
-    
     margin: 0;
     padding: 0;
     width: 50%;
