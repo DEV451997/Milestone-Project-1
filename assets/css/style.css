@@ -38,8 +38,21 @@ header h1:hover {
     color: darkgrey;
 }
 
+#navigation a:link {
+    text-decoration: none;
+}
+
+#navigation a:visited{
+    text-decoration: none;
+}
+
 #navigation a:hover {
     color: crimson;
+    text-decoration: none;
+}
+
+#navigation a:active{
+    text-decoration: none;
 }
 
 #socials {
@@ -59,6 +72,22 @@ header h1:hover {
 #socials i:hover {
     color: crimson;
 }
+
+#socials a:link{
+    text-decoration: none;
+}
+
+#socials a:visited{
+    text-decoration: none;
+} 
+
+#socials a:hover {
+    text-decoration: none;
+}
+
+#socials a:active{
+    text-decoration: none;
+} 
 
 /*********************main image*******/
 
@@ -123,7 +152,7 @@ header h1:hover {
 }
 
 #facilities {
-    background: url(/assets/images/facilities\ page.jpg) no-repeat center center;
+    background: url(/assets/images/facilities\ page\ 3.0.jpg) no-repeat center center;
     text-align: center;
 }
 
@@ -133,39 +162,34 @@ header h1:hover {
 
 /*****************sign up form styling********/
 
-.form-section {
-    
-    background: url(/assets/images/sign\ up\ image\ \(2\).jpg);
-    background-size: cover;
-    background-position: center;
-    height: 650px;
-    font-family: bebas neue;
-}
-
-.form-image {
-    height: 250px;
-}
-
-#form {
-    float: right;
-    padding: 10px;
-    margin: 50px 100px 50px;
-    width: 500px;
-    color: rgb(3, 3, 61);
-    text-align: center;
-    border: solid 15px;
-    background-color: darkgrey;
-    font-size: 110%;
-}
-
-#form input {
+.form {
+    background: url(/assets/images/sign\ up\ image\ \(2\).jpg) no-repeat center center;
+    height: 600px;
     width: 100%;
-    background-color: transparent;
-    padding: 1px;
+    padding-top: 110px;
 }
 
-#join-button {
+form {
+    text-align: center;
+    font-family: bebas neue;
+    font-size: 175%;
     color: crimson;
 }
 
+.form-control {
+    background-color: grey;
+    opacity: 0.5;
+    text-align: center;
+    
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    font-size: 75%;
+}
 
+.button {
+    font-size: 75%;
+    width: 35%;
+    color: rgb(3, 3, 61);
+    margin-top: 16px;
+}
