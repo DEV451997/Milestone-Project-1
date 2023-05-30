@@ -52,3 +52,18 @@ In terms of testing I made sure the navigation bar and socials links were active
 * The other issues I encountered were making the cards and form resposive. A number of times they would overlap or worse; move off the screen. I tackled this by using responsive classes I learnt from Bootstrap5.
 
 # Deployment
+* I deployed the website to Github Pages by going to Githubs repository. 
+* Going over to settings, pages and deploying via the main branch.
+
+# Credits
+## Content
+* The font I used throughout the website is from Google Fonts and calles Bebas Neue. (https://fonts.google.com/specimen/Bebas+Neue?query=bebas+neue)
+* The dummbell icons on the facilties page and the social media icons were taken from (https://fontawesome.com/)
+* The four cards and form were used from Bootstrap 5 to aid UX and responsiveness. (https://getbootstrap.com/docs/5.0/components/card/)
+* The idea for Mt.Olympus and the paragrpahs below the cards on the facilities page were thought up by myself.
+* The footer is a quote from Arnold Schwarzenegger, an extremely influential individual in the fitness world.
+
+## Media
+* The gym image was used from Leon Ardho via Pexels. (https://www.pexels.com/photo/barbell-on-the-floor-1552252/)
+* The facilities background image was used from Josiah Lewis via Pexels. (https://www.pexels.com/photo/stonewall-palace-772689/)
+* The remaining images were taken from Google images.
