@@ -91,6 +91,7 @@ header h1 {
     height: 600px;
     width: 100%;
     border: solid;
+    background: url(/assets/images/ZEUS\ 5.0.jpg) no-repeat center center;
     border-color: darkgrey;
     opacity: 0.85;
 
