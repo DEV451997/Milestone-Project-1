@@ -93,7 +93,7 @@ header h1 {
     border: solid;
     border-color: darkgrey;
     opacity: 0.85;
-    background: url(/assets/images/zeus-5-0.webp)no-repeat center center;
+    background: url(/assets/images/Screenshot\ 2023-05-31\ 164551.png)no-repeat center center;
 
     animation-name: image-zoom;
     animation-duration: 5s;
@@ -145,7 +145,7 @@ header h1 {
 
 #facilities {
     text-align: center;
-    background: url(/assets/images/facilities-page-3-0.webp)no-repeat center center;
+    background: url(/assets/images/facilities-page-3-0.png)center center;
 }
 
 #rec, #gym, #sc {
@@ -155,7 +155,7 @@ header h1 {
 /*****************sign up form styling********/
 
 .form {
-    background: url(/assets/images/Screenshot\ 2023-05-31\ 164551.png) no-repeat center center;
+    background: url(/assets/images/sign\ up\ image\ \(2\).png) no-repeat center center;
     height: 600px;
     width: 100%;
     padding-top: 110px;
