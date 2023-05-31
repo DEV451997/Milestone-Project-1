@@ -50,7 +50,7 @@ In terms of testing I made sure the navigation bar and socials links were active
 ## Issues
 * Issues I encountered were making sure the main image on the Home page stayed behind the header and footer. This was accomplished by placing a div element within a section and setting the sections position to relative.
 * The other issues I encountered were making the cards and form resposive. A number of times they would overlap or worse; move off the screen. I tackled this by using responsive classes I learnt from Bootstrap5.
-* I ran into an issue where the images would now load on my deployed website. I fixed this issue by using ../images for my background url in css rather than assets/images.
+* I ran into an issue where the images would not load on my deployed website. I fixed this issue by using ../images for my background url in css rather than assets/images.
 
 # Deployment
 * I deployed the website to Github Pages by going to Githubs repository. 
