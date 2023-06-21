@@ -40,12 +40,12 @@ Mt.Olympus was created to showcase the facilities we have on offer and motivate 
 * The goals of the website are to give the user all the information they need about the services Mt.Olympus offers. They will be able to navigate smoothly through a simplistic website, however including all relavant information. 
 * It should be easy to signup and get the information the user requires.
 
-# Wireframes
-![wireframe](/assets/images/wireframes.png)
-* These are the original designs using wireframe. The website stayed true to this with the header and footer being consistent through all three pages. The only iteration was made to the styling of the navigation bar.
-
 # Testing
 In terms of testing I made sure the navigation bar and socials links were active across all three html pages. I have thourougly gone through all three pages making sure the Home, Facilities and Sign Up allow the user to navigate to all pages only using this. The social icons at the bottom of the page have been tested on all three pages to allow the user to access Facebook, Instagram and Twitter whether they are on the Home, Facilities or Sign Up page. The website is also fully responsive. The main image stays between the header and footer and maintains the zoom effect on all screen sizes. The cards on the facilties page stack on top of eachover leaving adequate spacing. The form stays centered and leaves plenty of room for input even on mobile devices.
+
+## Validator Testing
+* No errors were returned when putting my HTML code through W3C validator.
+* No errors were found on my CSS file when put through Jigsaw.
 
 ## Issues
 * Issues I encountered were making sure the main image on the Home page stayed behind the header and footer. This was accomplished by placing a div element within a section and setting the sections position to relative.
@@ -68,3 +68,4 @@ In terms of testing I made sure the navigation bar and socials links were active
 * The gym image was used from Leon Ardho via Pexels. (https://www.pexels.com/photo/barbell-on-the-floor-1552252/)
 * The facilities background image was used from Josiah Lewis via Pexels. (https://www.pexels.com/photo/stonewall-palace-772689/)
 * The remaining images were taken from Google images.
+* The addition of the map was taken as a screenshot via google maps.
