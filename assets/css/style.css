@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Bebas Neue:400');
+@import url('https://fonts.googleapis.com/css?family=Open Sans:400');
 
 /************************ header and footer styling*********/
 
 header, footer {
     text-align: center;
-    font-family: bebas neue;
+    font-family: Open Sans;
     background-color: rgb(3, 3, 61);
     color: darkgrey;
     border: solid;
@@ -16,6 +16,11 @@ header h1 {
     font-size: 200%;
     color: darkgrey;
     margin: 0;
+    padding-bottom: 10px;
+}
+
+footer p {
+    padding-top: 10px;
 }
 
 /***********navigation and socials styling**************/
@@ -25,6 +30,14 @@ header h1 {
     margin: 0;
     padding: 0;
 }
+
+.listhome, .listnav, .listsignup {
+    border: solid;
+    border-color: darkgrey;
+    padding: 2px;
+}
+
+
 
 #navigation li {
     display: inline;
@@ -53,8 +66,8 @@ header h1 {
 
 #socials {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    
+    
 }
 
 #socials li {
@@ -94,10 +107,6 @@ header h1 {
     border-color: darkgrey;
     opacity: 0.85;
     background: url(../images/Screenshot\ 2023-05-31\ 164551.png)no-repeat center center;
-
-    animation-name: image-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
 
 #image-behind {
@@ -107,14 +116,32 @@ header h1 {
     overflow: hidden;
 }
 
-@keyframes image-zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.3);
-    }
+.brooklyn {
+    font-family: Open Sans;
+    font-size: 150%;
+    text-align: center;
+    margin: 10px, 10px, 10px, 10px;
+    background-color: rgb(3, 3, 61);
+    color: darkgrey;
+    border: solid;
+    border-color: darkgrey;
 }
+
+.brooklyn span {
+    padding:20px;
+}
+
+
+
+
+.map {
+    height: auto;
+    width: 100%;
+    border: solid;
+    border-color: darkgrey;
+}
+
+
 
 /**************facilities page main content styling*************/
 
@@ -134,7 +161,7 @@ header h1 {
 }
 
 .card-body {
-    font-family: bebas neue;
+    font-family: Open Sans;
     text-align: center;
     color: rgb(3, 3, 61);
     letter-spacing: 0.5px;
@@ -163,9 +190,10 @@ header h1 {
 
 form {
     text-align: center;
-    font-family: bebas neue;
+    font-family: Open Sans;
     font-size: 175%;
     color: crimson;
+    background-color: darkgrey;
 }
 
 .form-control {
