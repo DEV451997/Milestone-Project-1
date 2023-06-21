@@ -1,214 +1,217 @@
-@import url('https://fonts.googleapis.com/css?family=Open Sans:400');
+@import url('https://fonts.googleapis.com/css?family=Lato:400');
 
 /************************ header and footer styling*********/
 
-header, footer {
-    text-align: center;
-    font-family: Open Sans;
-    background-color: rgb(3, 3, 61);
-    color: darkgrey;
-    border: solid;
-    font-size: 150%;
-    padding-top: 6.1px;
+header,
+footer {
+  text-align: center;
+  font-family: Lato;
+  background-color: rgb(3, 3, 61);
+  color: darkgrey;
+  border: solid;
+  font-size: 150%;
+  padding-top: 6.1px;
 }
 
 header h1 {
-    font-size: 200%;
-    color: darkgrey;
-    margin: 0;
-    padding-bottom: 10px;
+  font-size: 200%;
+  color: darkgrey;
+  margin: 0;
+  padding-bottom: 10px;
 }
 
 footer p {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 /***********navigation and socials styling**************/
 
-#navigation  {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+#navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.listhome, .listnav, .listsignup {
-    border: solid;
-    border-color: darkgrey;
-    padding: 2px;
+.listhome,
+.listnav,
+.listsignup {
+  border: solid;
+  border-color: darkgrey;
+  padding: 1.5px;
 }
 
 
 
 #navigation li {
-    display: inline;
+  display: inline;
 }
 
 #navigation a {
-    color: darkgrey;
+  color: darkgrey;
 }
 
 #navigation a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-#navigation a:visited{
-    text-decoration: none;
+#navigation a:visited {
+  text-decoration: none;
 }
 
 #navigation a:hover {
-    color: crimson;
-    text-decoration: none;
+  color: crimson;
+  text-decoration: none;
 }
 
-#navigation a:active{
-    text-decoration: none;
+#navigation a:active {
+  text-decoration: none;
 }
 
 #socials {
-    list-style-type: none;
-    
-    
+  list-style-type: none;
+  padding: 0;
 }
 
 #socials li {
-    display: inline;
+  display: inline;
 }
 
 #socials i {
-    color: darkgrey;
+  color: darkgrey;
 }
 
 #socials i:hover {
-    color: crimson;
+  color: crimson;
 }
 
-#socials a:link{
-    text-decoration: none;
+#socials a:link {
+  text-decoration: none;
 }
 
-#socials a:visited{
-    text-decoration: none;
-} 
+#socials a:visited {
+  text-decoration: none;
+}
 
 #socials a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-#socials a:active{
-    text-decoration: none;
-} 
+#socials a:active {
+  text-decoration: none;
+}
 
 /*********************main image*******/
 
 #main-image {
-    height: 600px;
-    width: 100%;
-    border: solid;
-    border-color: darkgrey;
-    opacity: 0.85;
-    background: url(../images/Screenshot\ 2023-05-31\ 164551.png)no-repeat center center;
+  height: 600px;
+  width: 100%;
+  border: solid;
+  border-color: darkgrey;
+  background: url(../images/Screenshot\ 2023-05-31\ 164551.png)no-repeat center center;
 }
 
 #image-behind {
-    position: relative;
-    height: 557px;
-    width: 100%;
-    overflow: hidden;
+  position: relative;
+  height: 557px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .brooklyn {
-    font-family: Open Sans;
-    font-size: 150%;
-    text-align: center;
-    margin: 10px, 10px, 10px, 10px;
-    background-color: rgb(3, 3, 61);
-    color: darkgrey;
-    border: solid;
-    border-color: darkgrey;
+  font-family: Lato;
+  font-size: 150%;
+  text-align: center;
+  background-color: rgb(3, 3, 61);
+  color: darkgrey;
+  border: solid;
+  border-color: darkgrey;
 }
 
 .brooklyn span {
-    padding:20px;
+  padding: 20px;
 }
-
-
-
 
 .map {
-    height: auto;
-    width: 100%;
-    border: solid;
-    border-color: darkgrey;
+  height: auto;
+  width: 100%;
+  border: solid;
+  border-color: darkgrey;
 }
-
-
 
 /**************facilities page main content styling*************/
 
 .card {
-    margin: 0;
-    padding: 0;
-    border-style: solid;
-    border-color: rgb(3, 3, 61);
-    border-radius: 1px;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: rgb(3, 3, 61);
+  border-radius: 1px;
 }
 
 .card-image-top {
-    max-width: 100%;
-    padding: 0;
-    margin: 0;
-    max-height: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  max-height: 100%;
 }
 
 .card-body {
-    font-family: Open Sans;
-    text-align: center;
-    color: rgb(3, 3, 61);
-    letter-spacing: 0.5px;
-    font-size: 105%;
-    background-color: darkgrey;
-    padding: 10;
+  font-family: Lato;
+  text-align: center;
+  color: rgb(3, 3, 61);
+  letter-spacing: 0.5px;
+  font-size: 105%;
+  background-color: darkgrey;
+  padding: 10px;
 }
 
 #facilities {
-    text-align: center;
-    background: url(../images/facilities-page-3-0.png)center center;
+  text-align: center;
+  background: url(../images/facilities-page-3-0.png)center center;
 }
 
-#rec, #gym, #sc {
-    display: inline-block;
+.gym{
+  display: inline-block;
 }
+
 
 /*****************sign up form styling********/
 
 .form {
-    background: url(../images/sign\ up\ image\ \(2\).png) no-repeat center center;
-    height: 600px;
-    width: 100%;
-    padding-top: 110px;
+  background: url(../images/sign\ up\ image\ \(2\).png) no-repeat center center;
+  height: 1250px;
+  width: 100%;
+  padding-top: 110px;
 }
 
 form {
-    text-align: center;
-    font-family: Open Sans;
-    font-size: 175%;
-    color: crimson;
-    background-color: darkgrey;
+  text-align: center;
+  font-family: Lato;
+  font-size: 175%;
+  color: crimson;
+  max-width: 60%;
+  position: relative;
+  background-color: rgb(3, 3, 61);
+  margin-left: 50px;
+  border: solid darkgrey;
+  padding: 10px;
+  
 }
 
 .form-control {
-    background-color: grey;
-    opacity: 0.5;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    width: 50%;
-    font-size: 75%;
+  background-color: darkgrey;
+  opacity: 0.5;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  font-size: 75%;
 }
 
 .button {
-    font-size: 75%;
-    width: 35%;
-    color: rgb(3, 3, 61);
-    margin-top: 16px;
+  font-size: 75%;
+  width: 35%;
+  color: rgb(3, 3, 61);
+  margin-top: 16px;
+  padding: 10px;
 }
