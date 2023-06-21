@@ -37,11 +37,27 @@ Mt.Olympus was created to showcase the facilities we have on offer and motivate 
 
 # UX
 ## Site Goals
-* The goals of the website are to give the user all the information they need about the services Mt.Olympus offers. They will be able to navigate smoothly through a simplistic website, however including all relavant information. 
-* It should be easy to signup and get the information the user requires.
+* The goals of the website are to give the user all the information they need about the services Mt.Olympus offers. They will be able to navigate smoothly through a simplistic website, including all relavant information. 
+* It should be easy to signup and get the information the user requires and show them where the gym is.
+## User Stories
+As a user:
+* I want to be able to navigate through the website with ease.
+* I want to know what the website is about.
+* I want to know where the gym is located and do they have social media.
+* I want to be presented with all the information about the facilities the gym has to offer.
+* I want to be able to signup to the website where I will recieve information about the gym and events.
 
 # Testing
-In terms of testing I made sure the navigation bar and socials links were active across all three html pages. I have thourougly gone through all three pages making sure the Home, Facilities and Sign Up allow the user to navigate to all pages only using this. The social icons at the bottom of the page have been tested on all three pages to allow the user to access Facebook, Instagram and Twitter whether they are on the Home, Facilities or Sign Up page. The website is also fully responsive. The main image stays between the header and footer and maintains the zoom effect on all screen sizes. The cards on the facilties page stack on top of eachover leaving adequate spacing. The form stays centered and leaves plenty of room for input even on mobile devices.
+* The user is able to navigate easily with the use of the navigation bar spanning across all three pages. This has been tested so it works no matter what page you may be on.
+* Immediately the user is introduced to what the website is about via the home page. They are also shown where the gym is located and what to do to find out more information.
+* The user is also presented the oppurtunity the navigate to Mt. Olympus social media pages on any page via the links in the footer, which have also been tested so they work on every page.
+* The website has been tested for resposiveness using the inspect function on the website preview.
+
+| Feature | Expect | Action/Result | 
+| -------- | -------- | -------- |
+| Navigation Bar   | Able to navigate to all pages from each page. | Home, Facilties and Sign Up clicked. Resulted in pages being reached.  |
+| Social Links   | Able to navigate to all social media pages from each page.  | Facebook, Instagram and Twitter clicked. Takes you to corresposnding page.  |
+| Form   | Allow the user to input information and to be signed up.     |   Information inputted and join button pressed. User is signed up and form clears.
 
 ## Validator Testing
 * No errors were returned when putting my HTML code through W3C validator.
