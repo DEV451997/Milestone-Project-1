@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400');
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 /************************ header and footer styling*********/
 
 header,
@@ -28,21 +33,12 @@ footer p {
 
 #navigation {
   list-style-type: none;
-  margin: 0;
-  padding: 10px;
+  text-align: center;
 }
 
-.listhome,
-.listnav,
-.listsignup {
-  border: solid;
-  border-color: darkgrey;
-  padding: 1.5px;
-}
 
-#navigation li {
-  display: inline;
-}
+
+
 
 #navigation a {
   color: darkgrey;
@@ -59,6 +55,7 @@ footer p {
 #navigation a:hover {
   color: crimson;
   text-decoration: none;
+  transform: scale(1.1);
 }
 
 #navigation a:active {
@@ -112,21 +109,28 @@ footer p {
   font-family: Lato;
   font-size: 150%;
   text-align: center;
-  background-color: rgb(3, 3, 61);
-  color: darkgrey;
-  border: solid;
-  border-color: darkgrey;
-}
-
-.brooklyn span {
-  padding: 20px;
+  background-color: white;
+  color: rgb(3, 3, 61);
+  width: 100%;
+  display: grid;
+  place-content: center;
+  border-left: solid darkgrey;
 }
 
 .map {
-  height: auto;
+  height: 100%;
   width: 100%;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
   border: solid;
   border-color: darkgrey;
+}
+
+.col-md-8 {
+  padding: 0;
 }
 
 /**************facilities page main content styling*************/
@@ -137,6 +141,10 @@ footer p {
   border-style: solid;
   border-color: rgb(3, 3, 61);
   border-radius: 1px;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card-image-top {

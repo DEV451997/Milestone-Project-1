@@ -18,19 +18,18 @@
       <h1>Mt. Olympus
         <i class='fas fa-dumbbell'></i>
       </h1>
-      <nav>
-        <ul id="navigation">
-          <li class="listhome">
-            <a href="index.html">Home</a>
-          </li>
-          <li class="listnav">
-            <a href="facilities.html">Facilities</a>
-          </li>
-          <li class="listsignup">
-            <a href="signup.html">Sign Up</a>
-          </li>
-        </ul>
-      </nav>
+      
+
+
+      <div id="navigation" class="container">
+        <nav class="navbar">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <a class="navbar-brand" href="facilities.html">Facilities</a>
+          <a class="navbar-brand" href="signup.html">Sign Up</a>
+
+        </nav>
+      </div>
+
     </header>
 
     <!--This div is to showcase the main image of the home page-->
@@ -38,11 +37,19 @@
     </div>
 
     <!--This div is for the map and information regarding what Mt.Olympus is.-->
-    <div class="brooklyn">
-      <span>Mt.Olympus is the latest and greatest gym to come out of Brooklyn, New York.
-        Find a map below of where we are located and check out our facilities page to see what we have to offer.
-        Also if that catches your eye, head over to our signup page to join us today!</span>
-      <img src="assets/images/brooklyn.png" class="map" alt="map of brooklyn">
+    
+
+    <div class="row">
+      <div class="col-md-8">
+        <img src="assets/images/brooklyn.png" class="map" alt="map of brooklyn">
+      </div>
+
+      <div class="col-md-4 brooklyn">
+
+        <p>Mt.Olympus is the latest and greatest gym to come out of Brooklyn, New York.
+          Check the map to see where we are located and check out our facilities page to see what we have to offer.
+          Also if that catches your eye, head over to our signup page to join us today!</p>
+      </div>
     </div>
 
     <!--The footer contains Mt.Olympus social icons a paragraph telling the user to click on them and a CSS validator to show the page passes CSS tests!-->
